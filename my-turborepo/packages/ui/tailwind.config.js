@@ -1,3 +1,4 @@
+// fontFamilyの設定は shadcn-ui@latest initのと着ないので不要かも...
 const { fontFamily } = require('tailwindcss/defaultTheme')
 
 /** @type {import('tailwindcss').Config} */
