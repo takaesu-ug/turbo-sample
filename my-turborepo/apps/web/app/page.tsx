@@ -1,6 +1,8 @@
+import { Alert, AlertDescription, AlertTitle } from '@repo/ui/alert'
 import { Button } from '@repo/ui/button'
 import { Card } from '@repo/ui/card'
 import { Code } from '@repo/ui/code'
+
 import Image from 'next/image'
 import styles from './page.module.css'
 
@@ -80,6 +82,17 @@ export default function Page(): JSX.Element {
       <Button appName="web" className={styles.button}>
         Click me!
       </Button>
+
+      <div>
+        <Alert>
+          <AlertTitle>アラート title</AlertTitle>
+          <AlertDescription>
+            <Button appName="web" className={styles.button}>
+              アラートボタン
+            </Button>
+          </AlertDescription>
+        </Alert>
+      </div>
 
       <div className={styles.hero}>
         <div className={styles.heroContent}>
