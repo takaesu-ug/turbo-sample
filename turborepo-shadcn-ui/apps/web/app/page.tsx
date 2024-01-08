@@ -1,5 +1,5 @@
-import { Alert, AlertDescription, AlertTitle } from "@ui/components/alert";
-import { Button } from "@ui/components/button";
+import { Alert, AlertDescription, AlertTitle } from '@ui/components/alert'
+import { Button } from '@ui/components/button'
 
 export default function Page() {
   return (
@@ -8,9 +8,9 @@ export default function Page() {
       <Button>Click me</Button>
 
       <Alert>
-        <AlertTitle>タイトル</AlertTitle>
+        <AlertTitle>タイトル2</AlertTitle>
         <AlertDescription>説明</AlertDescription>
       </Alert>
     </>
-  );
+  )
 }
