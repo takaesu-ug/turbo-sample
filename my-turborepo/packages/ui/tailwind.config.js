@@ -1,10 +1,13 @@
-// fontFamilyの設定は shadcn-ui@latest initのと着ないので不要かも...
+// - fontFamilyの設定は shadcn-ui@latest init でfontFamilyの設定はないので不要かも...
+// - contentに以下の設定を入れる
+//  '../../packages/ui/components/**/*.{ts,tsx}',
+//  './src/app/**/*.{ts,tsx}',
 const { fontFamily } = require('tailwindcss/defaultTheme')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ['class'],
-  content: ['app/**/*.{ts,tsx}', 'components/**/*.{ts,tsx}'],
+  content: ['./src/components/**/*.{ts,tsx}'],
   prefix: '',
   theme: {
     container: {
