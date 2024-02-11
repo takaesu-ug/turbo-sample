@@ -7,7 +7,7 @@ export function Code({
 }): JSX.Element {
   return (
     <>
-      <p className="text-5xl font-bold underline">Hello world!!!!</p>
+      <p className="text-5xl pb-4 pt-8 border-4 underline">Hello world!!!!</p>
       <code className={className}>{children}</code>;
     </>
   )

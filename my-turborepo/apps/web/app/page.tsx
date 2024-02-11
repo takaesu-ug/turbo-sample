@@ -9,9 +9,11 @@ export default function Page(): JSX.Element {
       <div>
         <div>
           examples/basic&nbsp;
-          <Code>web!!!!!</Code>
+          <Code>web!!!</Code>
         </div>
       </div>
+
+      <p className="text-lg font-bold pb-10 pt-8 border-4">This is a web app</p>
 
       {/* <Button appName="web" className={styles.button}>
         <span className="font-extrabold underline">Click me!</span>
@@ -19,7 +21,9 @@ export default function Page(): JSX.Element {
 
       <Alert>
         <AlertTitle>テスト by web</AlertTitle>
-        <AlertDescription>ほげほげ</AlertDescription>
+        <AlertDescription>
+          <p>ほげほげ</p>
+        </AlertDescription>
       </Alert>
     </main>
   )
